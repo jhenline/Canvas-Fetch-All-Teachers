@@ -1,6 +1,6 @@
 # Canvas Course and Teacher Data Processor
 
-This Python script fetches course and teacher data from the Canvas API, processes the information, and saves it to a CSV file. It handles paginated API responses, retries failed requests, and processes multiple courses concurrently.
+This Python script fetches course and teacher data from the Canvas API, processes the information, and saves it to a CSV file. It handles paginated API responses, retries failed requests, and processes multiple courses concurrently. The data can then be uploaded into FDMS. In our use case, we need to get the "SIS ID" from Canvas into our office database. 
 
 ## Example Output
 ```
