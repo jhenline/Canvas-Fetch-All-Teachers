@@ -3,11 +3,11 @@
 This Python script fetches course and teacher data from the Canvas API, processes the information, and saves it to a CSV file. It handles paginated API responses, retries failed requests, and processes multiple courses concurrently.
 
 ## Example Output
-'''
+```
 First Name,Last Name,Login ID,Course Segment,SIS ID,Term ID
 Ethan,Turner,ethan.turner,,123456789,1
 Sophia,Ramirez,sophia.ramirez,,223456789,1
-'''
+```
 
 ## Features
 
